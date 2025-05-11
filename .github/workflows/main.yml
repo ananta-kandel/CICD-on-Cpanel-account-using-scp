@@ -12,5 +12,5 @@ jobs:
           username: anantakandel
           password: ${{ secrets.PASSWORD }}
           port: 22
-          source: "CICD-on-Cpanel-account-using-scp"
+          source: .
           target: /home/anantakandel/public_html/CICD-on-Cpanel-account-using-scp
