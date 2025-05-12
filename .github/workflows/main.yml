@@ -3,7 +3,7 @@ name: Deploy to CPanel using SCP
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   deploy:
